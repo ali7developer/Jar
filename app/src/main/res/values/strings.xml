@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Gar</string>
+    <string name="category_string">Catorgy</string>
+    <string name="location_string">Location</string>
+    <string name="clear_button">Clear</string>
+    <string name="post_button">Post</string>
+    <string name="view_button">View</string>
+    <string-array name="cat">
+        <item>Construction</item>
+        <item>Agriculture</item>
+    </string-array>
+
+    <string-array name="location_array">
+        <item>Muscat</item>
+        <item>AlBatinah</item>
+        <item>Dohfar</item>
+        <item>AlWausta</item>
+    </string-array>
+
+    <string name="list_string"></string>
+
+
+</resources>

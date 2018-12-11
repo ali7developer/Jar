@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wahaybi.jar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainJar" />
+        <activity android:name=".ToolListActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".RegisterdPost" />
+        <activity android:name=".Contcat"></activity>
+        <activity android:name=".Drill"></activity>
+        <activity android:name=".screwDriver"></activity>
+        <activity android:name=".CementMixer"></activity>
+        <activity android:name=".HandSaw"></activity>
+        <activity android:name=".WheelBarrow"></activity>
+    </application>
+
+</manifest>

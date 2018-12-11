@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp">
+
+    <ImageView
+        android:id="@+id/screwe_driver_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+    <TextView
+        android:id="@+id/screwe_driver_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:id="@+id/screwe_driver_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/screwe_driver_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/screwe_driver_Owner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/screwe_driver_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:fontFamily="sans-serif-light"/>
+
+
+</LinearLayout>

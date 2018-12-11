@@ -1,0 +1,136 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/name_edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Name"
+        android:paddingLeft="16dp"
+        />
+
+
+    <EditText
+        android:id="@+id/tool_edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Tool"
+        android:paddingLeft="16dp"
+        />
+
+    <EditText
+        android:id="@+id/price_edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Price"
+        android:paddingLeft="16dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:textSize="24sp"
+            android:text="@string/category_string"
+            />
+
+
+        <Spinner
+            android:id="@+id/categories_spinner_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:paddingTop="8dp"
+            android:textSize="24sp"
+            android:text="@string/location_string"
+            />
+
+
+        <Spinner
+            android:id="@+id/location_spiner_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/description_edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Tool's Description"
+        android:paddingLeft="16dp"
+        />
+
+
+    <EditText
+        android:id="@+id/number_edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Phone Number"
+        android:paddingLeft="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/clear_button_id"
+            android:layout_width="120dp"
+            android:layout_height="72dp"
+            android:text="@string/clear_button"
+            android:textSize="24sp"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="65dp"
+            android:backgroundTint="@color/g"
+
+            />
+
+        <Button
+            android:id="@+id/post_button_id"
+            android:layout_width="120dp"
+            android:layout_height="72dp"
+            android:text="@string/view_button"
+            android:textSize="24sp"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="@color/g"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
